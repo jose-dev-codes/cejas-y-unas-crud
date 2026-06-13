@@ -30,3 +30,14 @@ npm install
 
 3. Ejecutar:
 npx expo start
+
+## Cómo probar el CRUD de citas
+
+La base de datos incluye usuarios y servicios de prueba precargados (ver `database/`).
+
+Para agendar una cita:
+1. Seleccionar un **usuario** y un **servicio** en los menús desplegables
+2. Completar los campos de especialista, fecha (YYYY-MM-DD) y hora (HH:MM)
+3. Presionar **Agendar cita**
+
+Para editar o cancelar una cita, usar los botones **Editar** y **Cancelar** dentro de cada tarjeta de la lista de citas agendadas.
